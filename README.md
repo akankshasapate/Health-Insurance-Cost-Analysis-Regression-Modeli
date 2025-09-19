@@ -1,57 +1,90 @@
-Health Insurance Cost Analysis & Regression Modeling
-A project to analyze factors affecting health insurance costs and build regression models to predict insurance charges.
+# 🏥 Health Insurance Cost Analysis & Regression Modeling  
 
-📋 Table of Contents
-Project Overview
-Dataset
-Features
-Exploratory Data Analysis (EDA)
-Modeling
-Evaluation Metrics
-Results
-Usage
-Future Work
-Requirements
-License
-🧐 Project Overview
-This project analyzes a health insurance dataset to understand which factors influence insurance costs and builds regression models to predict insurance charges. The models include linear regression and possibly more advanced regressors. The goal is:
+A project to analyze factors affecting **health insurance costs** and build **regression models** to predict insurance charges.  
 
-To explore trends and relationships in the data
-To build predictive models
-To evaluate the performance of those models
-To derive actionable insights
-📂 Dataset
-The data comes from a public dataset (Kaggle), which includes individual-level health insurance data.
-Key fields include: age, sex, bmi, children, smoker, region, and charges.
-🔍 Features
-Here are some of the variables used:
+---
 
-Feature	Description
-age	Age of the individual
-sex	Gender (male / female)
-bmi	Body Mass Index
-children	Number of children the individual has
-smoker	Whether the individual is a smoker or not
-region	Geographic region
-charges	Insurance cost (target variable)
-📈 Exploratory Data Analysis (EDA)
-Investigating distribution of continuous features (age, BMI, children)
-Checking for correlations between variables
-Visualizing differences in charges by smoker status, region, etc.
-Handling categorical variables via encoding
-Checking for outliers/missing values
-🤖 Modeling
-Splitting data into training and test sets
-Using one or more regression algorithms (e.g., Linear Regression, maybe Ridge / Lasso / ElasticNet)
-Feature engineering / preprocessing (encoding categorical vars, scaling if needed)
-Hyperparameter tuning (if implemented)
-📊 Evaluation Metrics
-Typical metrics used to evaluate regression models:
+## 📋 Table of Contents  
+1. [Project Overview](#-project-overview)  
+2. [Dataset](#-dataset)  
+3. [Features](#-features)  
+4. [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)  
+5. [Modeling](#-modeling)  
+6. [Evaluation Metrics](#-evaluation-metrics)  
+7. [Results](#-results)  
+8. [Usage](#-usage)  
+9. [Future Work](#-future-work)  
+10. [Requirements](#-requirements)  
+11. [License](#-license)  
 
-RMSE — Root Mean Squared Error
-MAE — Mean Absolute Error
-R² (R-squared) — Coefficient of determination
-🏆 Results
-Summary of which model performed best
-Interpretation of predictions vs actual costs
-Key insights from the model (e.g. “smoker status has the largest impact”, etc.)
+---
+
+## 🧐 Project Overview  
+This project analyzes a **health insurance dataset** to understand which factors influence insurance costs and builds regression models to predict insurance charges.  
+
+The goal is:  
+- 🔍 Explore trends and relationships in the data  
+- 🤖 Build predictive models  
+- 📊 Evaluate model performance  
+- 💡 Derive actionable insights  
+
+---
+
+## 📂 Dataset  
+The data comes from a **public Kaggle dataset**, containing individual-level health insurance data.  
+
+**Key fields include:**  
+- `age` – Age of the individual  
+- `sex` – Gender (male / female)  
+- `bmi` – Body Mass Index  
+- `children` – Number of children  
+- `smoker` – Smoker or non-smoker  
+- `region` – Geographic region  
+- `charges` – Insurance cost *(Target Variable)*  
+
+---
+
+## 🔍 Features  
+
+| Feature   | Description |
+|-----------|-------------|
+| **age**   | Age of the individual |
+| **sex**   | Gender (male / female) |
+| **bmi**   | Body Mass Index |
+| **children** | Number of children the individual has |
+| **smoker** | Smoker or non-smoker |
+| **region** | Geographic region |
+| **charges** | Insurance cost (Target variable) |
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)  
+- 📊 Investigating distributions of continuous features (`age`, `bmi`, `children`)  
+- 🔗 Checking for correlations between variables  
+- 🌍 Visualizing differences in charges by `smoker` status, `region`, etc.  
+- 🛠 Handling categorical variables via encoding  
+- ⚠️ Checking for outliers and missing values  
+
+---
+
+## 🤖 Modeling  
+Steps followed for building predictive models:  
+1. 📂 Splitting data into **training** and **test sets**  
+2. 🔨 Using regression algorithms (Linear Regression, Ridge, Lasso, ElasticNet, etc.)  
+3. 🧩 Feature engineering & preprocessing (encoding categorical variables, scaling if needed)  
+4. ⚙️ Hyperparameter tuning *(if implemented)*  
+
+---
+
+## 📊 Evaluation Metrics  
+The following metrics were used to evaluate model performance:  
+- 📉 **RMSE** – Root Mean Squared Error  
+- 📏 **MAE** – Mean Absolute Error  
+- 📈 **R²** – Coefficient of Determination  
+
+---
+
+## 🏆 Results  
+- ✅ Summary of which model performed best  
+- 📊 Comparison of predictions vs actual insurance charges  
+- 💡 Key insights (e.g., **smoker status has the largest impact on cost**)  
