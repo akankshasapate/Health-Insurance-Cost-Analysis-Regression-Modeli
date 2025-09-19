@@ -12,10 +12,7 @@ A project to analyze factors affecting **health insurance costs** and build **re
 5. [Modeling](#-modeling)  
 6. [Evaluation Metrics](#-evaluation-metrics)  
 7. [Results](#-results)  
-8. [Usage](#-usage)  
-9. [Future Work](#-future-work)  
-10. [Requirements](#-requirements)  
-11. [License](#-license)  
+
 
 ---
 
